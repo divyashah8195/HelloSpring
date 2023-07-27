@@ -31,4 +31,10 @@ public class HelloCtl {
 	public Course getCourses(@PathVariable String courseid){
 		return this.service.getCourse(Long.parseLong(courseid));	
 	}
+	
+	public Course getCourses1(@PathVariable String courseid){
+		return this.service.getCourse(Long.parseLong(courseid));	
+	}
+	
+	
 }
